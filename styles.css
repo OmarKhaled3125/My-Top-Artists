@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background: url('images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+    
+      
+  .wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .artist-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .artist {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .artist .number {
+    font-size: 28px;
+    font-weight: 700;
+    width: 30px;
+  }
+  
+  .artist img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .artist .name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  
+  .footer img {
+    width: 80px;
+  }
+  
+  .footer p {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
